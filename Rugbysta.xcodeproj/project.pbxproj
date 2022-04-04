@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2F965327FB81B500EBFC99 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F965227FB81B500EBFC99 /* CategoryModel.swift */; };
+		BB2F965527FB82C600EBFC99 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F965427FB82C600EBFC99 /* CategoryItemView.swift */; };
+		BB2F965727FB847700EBFC99 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F965627FB847700EBFC99 /* CategoryGridView.swift */; };
+		BB2F965927FB972B00EBFC99 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F965827FB972B00EBFC99 /* SectionView.swift */; };
 		BBB301CD27FB6F190024747A /* RugbystaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301CC27FB6F190024747A /* RugbystaApp.swift */; };
 		BBB301CF27FB6F190024747A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301CE27FB6F190024747A /* ContentView.swift */; };
 		BBB301D127FB6F1E0024747A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB301D027FB6F1E0024747A /* Assets.xcassets */; };
 		BBB301D427FB6F1E0024747A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB301D327FB6F1E0024747A /* Preview Assets.xcassets */; };
+		BBB301DE27FB701B0024747A /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = BBB301DA27FB701B0024747A /* player.json */; };
+		BBB301DF27FB701B0024747A /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = BBB301DB27FB701B0024747A /* category.json */; };
+		BBB301E027FB701B0024747A /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = BBB301DC27FB701B0024747A /* brand.json */; };
+		BBB301E127FB701B0024747A /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = BBB301DD27FB701B0024747A /* product.json */; };
+		BBB301ED27FB71A90024747A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301EC27FB71A90024747A /* Constant.swift */; };
+		BBB301EF27FB72980024747A /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301EE27FB72980024747A /* FooterView.swift */; };
+		BBB301F127FB75F80024747A /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301F027FB75F80024747A /* NavigationBarView.swift */; };
+		BBB301F327FB77790024747A /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301F227FB77790024747A /* LogoView.swift */; };
+		BBB301F527FB7C570024747A /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301F427FB7C570024747A /* PlayerModel.swift */; };
+		BBB301F727FB7CC60024747A /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301F627FB7CC60024747A /* CodableBundleExtension.swift */; };
+		BBB301F927FB7E560024747A /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301F827FB7E560024747A /* FeaturedItemView.swift */; };
+		BBB301FB27FB7ECD0024747A /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB301FA27FB7ECD0024747A /* FeaturedTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB2F965227FB81B500EBFC99 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		BB2F965427FB82C600EBFC99 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		BB2F965627FB847700EBFC99 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		BB2F965827FB972B00EBFC99 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		BBB301C927FB6F190024747A /* Rugbysta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rugbysta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB301CC27FB6F190024747A /* RugbystaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RugbystaApp.swift; sourceTree = "<group>"; };
 		BBB301CE27FB6F190024747A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBB301D027FB6F1E0024747A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBB301D327FB6F1E0024747A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBB301DA27FB701B0024747A /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		BBB301DB27FB701B0024747A /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		BBB301DC27FB701B0024747A /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		BBB301DD27FB701B0024747A /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		BBB301E427FB70940024747A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BBB301EC27FB71A90024747A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BBB301EE27FB72980024747A /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		BBB301F027FB75F80024747A /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		BBB301F227FB77790024747A /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		BBB301F427FB7C570024747A /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		BBB301F627FB7CC60024747A /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		BBB301F827FB7E560024747A /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		BBB301FA27FB7ECD0024747A /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +84,13 @@
 		BBB301CB27FB6F190024747A /* Rugbysta */ = {
 			isa = PBXGroup;
 			children = (
-				BBB301CC27FB6F190024747A /* RugbystaApp.swift */,
-				BBB301CE27FB6F190024747A /* ContentView.swift */,
+				BBB301E627FB71230024747A /* View */,
+				BBB301E927FB71450024747A /* Model */,
+				BBB301E427FB70940024747A /* Info.plist */,
+				BBB301E327FB703F0024747A /* Data */,
+				BBB301EA27FB714B0024747A /* Extension */,
+				BBB301EB27FB718F0024747A /* Utility */,
+				BBB301E527FB71100024747A /* App */,
 				BBB301D027FB6F1E0024747A /* Assets.xcassets */,
 				BBB301D227FB6F1E0024747A /* Preview Content */,
 			);
@@ -65,6 +103,82 @@
 				BBB301D327FB6F1E0024747A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBB301E327FB703F0024747A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BBB301DC27FB701B0024747A /* brand.json */,
+				BBB301DB27FB701B0024747A /* category.json */,
+				BBB301DA27FB701B0024747A /* player.json */,
+				BBB301DD27FB701B0024747A /* product.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BBB301E527FB71100024747A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BBB301CC27FB6F190024747A /* RugbystaApp.swift */,
+				BBB301CE27FB6F190024747A /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BBB301E627FB71230024747A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBB301E727FB712C0024747A /* Home */,
+				BBB301E827FB71360024747A /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBB301E727FB712C0024747A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BBB301EE27FB72980024747A /* FooterView.swift */,
+				BBB301F027FB75F80024747A /* NavigationBarView.swift */,
+				BBB301F227FB77790024747A /* LogoView.swift */,
+				BBB301F827FB7E560024747A /* FeaturedItemView.swift */,
+				BBB301FA27FB7ECD0024747A /* FeaturedTabView.swift */,
+				BB2F965427FB82C600EBFC99 /* CategoryItemView.swift */,
+				BB2F965627FB847700EBFC99 /* CategoryGridView.swift */,
+				BB2F965827FB972B00EBFC99 /* SectionView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BBB301E827FB71360024747A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		BBB301E927FB71450024747A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBB301F427FB7C570024747A /* PlayerModel.swift */,
+				BB2F965227FB81B500EBFC99 /* CategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBB301EA27FB714B0024747A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BBB301F627FB7CC60024747A /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BBB301EB27FB718F0024747A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BBB301EC27FB71A90024747A /* Constant.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB301DE27FB701B0024747A /* player.json in Resources */,
+				BBB301E027FB701B0024747A /* brand.json in Resources */,
 				BBB301D427FB6F1E0024747A /* Preview Assets.xcassets in Resources */,
 				BBB301D127FB6F1E0024747A /* Assets.xcassets in Resources */,
+				BBB301DF27FB701B0024747A /* category.json in Resources */,
+				BBB301E127FB701B0024747A /* product.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +255,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB301F727FB7CC60024747A /* CodableBundleExtension.swift in Sources */,
 				BBB301CF27FB6F190024747A /* ContentView.swift in Sources */,
+				BBB301F327FB77790024747A /* LogoView.swift in Sources */,
+				BBB301EF27FB72980024747A /* FooterView.swift in Sources */,
+				BBB301F927FB7E560024747A /* FeaturedItemView.swift in Sources */,
 				BBB301CD27FB6F190024747A /* RugbystaApp.swift in Sources */,
+				BBB301ED27FB71A90024747A /* Constant.swift in Sources */,
+				BB2F965727FB847700EBFC99 /* CategoryGridView.swift in Sources */,
+				BB2F965327FB81B500EBFC99 /* CategoryModel.swift in Sources */,
+				BBB301F127FB75F80024747A /* NavigationBarView.swift in Sources */,
+				BB2F965927FB972B00EBFC99 /* SectionView.swift in Sources */,
+				BB2F965527FB82C600EBFC99 /* CategoryItemView.swift in Sources */,
+				BBB301FB27FB7ECD0024747A /* FeaturedTabView.swift in Sources */,
+				BBB301F527FB7C570024747A /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +400,13 @@
 				DEVELOPMENT_TEAM = 5X5ZG6YAYR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rugbysta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +431,13 @@
 				DEVELOPMENT_TEAM = 5X5ZG6YAYR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rugbysta/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
