@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct AddToCartDetailView: View {
+    
+    // MARK: - PROPERTIES
+    let product: Product
+    
+    // MARK: - BODY
     var body: some View {
-        Button(action: {}, label: {
+        Button(action: {
+            feedback.impactOccurred()
+        }, label: {
             Spacer()
             Text("Add to Cart".uppercased())
                 .font(.system(.title2, design: .rounded))
@@ -19,7 +26,7 @@ struct AddToCartDetailView: View {
         })//: BUTTON
         .padding(15)
         .background(
-            Color(red: sampleProduct.red, green: sampleProduct.green, blue: sampleProduct.blue)
+            Color(red: product.red, green: product.green, blue: product.blue)
                 .clipShape(
                     Capsule()
                           )
@@ -29,7 +36,8 @@ struct AddToCartDetailView: View {
 
 struct AddToCartDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        AddToCartDetailView()
+        AddToCartDetailView(product: sampleProduct)
+            .environmentObject(Shop())
             .previewLayout(.sizeThatFits)
             .padding()
     }
